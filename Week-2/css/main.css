@@ -1,0 +1,78 @@
+div {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #999; /*this is the border shortcut - width of border; style of border; color of border */
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: #999; */
+    /* border-bottom: 2px solid #999; */
+    /* margin: 10px 40px 250px 100px;  Top Right Bottom Left of object  */
+    /* margin: 10px 0 0 10px Only the left and the top are getting margin spacing */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#box1 { /* use the '#' to select ids - ALSO REMEMBER SPECIFICITY */
+    background-color: cornflowerblue;
+}
+
+#box1 h2 {
+    text-align: center;
+    color:azure;
+    text-transform: uppercase;
+}
+
+#box1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9em;
+    text-decoration: line-through;
+}
+
+#box2 {
+    background-color: darkseagreen;
+}
+
+#box2:hover {
+    background-color: #fff;
+}
+
+#box2 ul li {
+    list-style-type:square;
+}
+
+#box2 li:nth-child(2) {
+    background-color: aliceblue;
+}
+
+#third {
+    list-style-position: inside;
+}
+
+#box3 {
+    background-color: lightcyan;
+}
+
+#box3 a:link {
+    color: #2d6df8; 
+}
+
+#box3 a:visited {
+    color: rgb(236, 48, 48);
+}
+
+#box3 a:hover {
+    background-color: #fff;
+    color:coral;
+    text-decoration: none;
+}
+
+#box3 a:active {
+    color: #2d6df8; 
+}
+
+
+.box-styles { /* this calls elements with the class attribute set to the name "box-style" */
+    border-radius: 10px;
+}

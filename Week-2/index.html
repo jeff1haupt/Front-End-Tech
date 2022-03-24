@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the CDN to use font awesome icons throughout the website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- This is the CDN to use Google fonts for the selected fonts: Oswald and Quattrocento-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <!-- end Google fonts import -->
+
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    
+    <title>Front End Technologies - Week 2</title>
+</head>
+<body>
+    <main>
+        <section id="contact-info">
+            <h3>How to find us</h3>
+            <div>
+                <p>We have several locations throughout the area, including:</p>
+                <address>
+                    <i class="fa fa-location-dot"></i>
+                    1212 Main Street 
+                    Cincinnati, Ohio 44011
+                </address>
+                <address>
+                    <i class="fa fa-location-dot"></i>
+                    5555 Central Avenue 
+                    Covington, Kentucky 41011
+                </address>
+                <address>
+                    <i class="fa fa-location-dot"></i>
+                    7788 US Hwy 31
+                    Mason, Ohio 44001
+                </address>
+                <p><i class="fa-solid fa-square-phone"></i>
+                (513) 555-1212
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    thisbusiness@wesellyouthings.com
+                </p>
+                <h3 id="social-header">we are social</h3>
+                <p id="social-media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </p>
+            </div>
+        </section>
+        <section id="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="name" id="full-name">What should we call you?</label>
+                <input type="text" placeholder="First name" class="nameInput">
+                <input type="text" placeholder="Last name" class="nameInput">
+                <label for="email">What email should we use?</label>
+                <input type="email" placeholder="someone@email.com">
+                <label for="phone">How about a phone number?</label>
+                <input type="text" placeholder="(555) 555-5555">
+                <label for="message">Tell us things</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

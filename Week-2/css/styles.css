@@ -1,0 +1,106 @@
+body {
+    background-image: url('../images/background-smaller.jpeg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    width: 750px;
+    margin: 5vh auto;
+    font-size: 16px;
+    border: 1px solid #999;
+    box-shadow: 0px 0px 10px 2px #666;
+}
+
+section {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+label, button {
+    display: block;
+}
+
+label {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+input {
+    font-family: 'Quattrocento', serif;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input.nameInput {
+    display: inline-block;
+    width: 40%;
+}
+
+h3, button, label{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+address {
+    font-style: normal;
+    padding: 10px 0;
+}
+
+address i {
+    padding-right: 5px;
+}
+
+#contact-info {
+    color: #eee;
+    background: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
+        url('../images/map-smaller.jpeg');
+    background-size: cover;
+    background-position: -250px;
+}
+
+#contact-form {
+    background-color: #f8f8ff;
+}
+
+#contact-info p i{
+    padding-right: 5px;
+}
+
+#contact-info p, #contact-info address {
+    font-size: .85rem;
+}
+
+#social-header {
+    margin-top: 100px;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media i {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+button {
+    background-color: #2d6df8; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0
+} 
