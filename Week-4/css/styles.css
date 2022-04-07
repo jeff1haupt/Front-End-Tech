@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2 {
+    margin: 2rem;
+}
+
+div {
+    margin: 2rem;
+    display: flex;
+}
+
+ul {
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+button {
+    background-color:lightblue;
+    border: none;
+    padding: .5rem;
+}
+
+.fonts {
+    color:lightslategrey;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
